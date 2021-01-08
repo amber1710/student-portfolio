@@ -5,16 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Amber Adonis-Portfolio</title>
     <link href="index.css" rel="stylesheet" type="text/css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="sp.js"></script>
 
 </head>
 <body>
 
-
+<!--Top menu-->
   <nav class="container-fluid nav">
     <div class="container cf">
-      <div class="brand">
-        <a href="#splash">PORTFOLIO</a>
-      </div>
       <i class="fa fa-bars nav-toggle"></i>
       <ul>
         <li><a href="#about">About Me</a></li>
@@ -27,60 +26,132 @@
   
   <div class="container-fluid splash" id="splash">
     <div class="container">
-      <img src="https://s10.postimg.org/jvo3z5kux/QTr_B8o_S.jpg" alt="Portrait of Amber" class="profile-image">
       <h1>Amber Adonis</h1>
       <span class="lead">Junior Developer</span>
       <span class="continue"><a href="#about"><i class="fa fa-angle-down"></i></a></span>
     </div>
   </div>
-  
+  <!--About Me Section-->
   <div class="container-fluid intro" id="about">
     <div class="container">
       <h2>About Me</h2>
+      <img src="black.jpeg" alt="Amber" width="400" height="400" class="center">
       <p>I am a hard-working, self-motivated individual who is always willing to learn. I interact well in a group and have the ability to work independently. Given the opportunity to showcase my skills, I will exceed expectation. I love developing apps, websites and seeing the outcome of my work and that is why I want to pursue a career as a Front-end developer.</p>
       <button type="button"
     </div>
   </div>
-  
-  <div class="container-fluid features" id="skills">
-    <div class="container cf">
+  <!--Experience-->
+  <div class="row">
+    <div class="column" style="background-color:black;">
       <h2>Skills &amp; Experience</h2>
-      <div class="col-3">
-        <img src="https://s22.postimg.org/oi5es3fkx/icon_cloud.png" alt="">
-        <h3>Cloud Computing</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda modi maiores eum commodi soluta, blanditiis voluptates ea eos, cim! Neque.</p>
+        <h3>Education:</h3>
+        <ul>
+         <li>Matric (year and school):	Rocklands Secondary School – 2018</li>          
+        
+         <p>Any other education (even if you have dropped-out):  No</p>
+        </ul>
       </div>
-      <div class="col-3">
-        <img src="https://s22.postimg.org/jxj8d5vvl/icon_coding.png" alt="">
-        <h3>Expert Coding</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda modi maiores eum commodi soluta, blanditiis voluptates ea eos, cim! Neque.</p>
+
+      <div class="column" style="background-color:rgb(9, 224, 231)">
+        <h3>Passion Board</h3>
+      <ol>
+        <li>Building websites</li><br/>
+        <li>Mobile gaming</li><br/>
+        <li>Reading</li><br/>
+        <li>Socialising</li>
+      </ol>
       </div>
-      <div class="col-3">
-        <img src="https://s22.postimg.org/citwksa01/icon_graph.png" alt="">
+      <div class="column" style="background-color:maroon">
         <h3>Teacher Assistant</h3>
-        <p><b>Company:</b>Searidge Park Primary School</p>
-        <p>Period:< January 2019 (2 weeks)</p>
-        <p>Role: Volunteer Teaching Assistant</p>
-        <p> Duties: 
-              • Assisting with general tasks in the classroom as directed by the teacher</p>
+       <ol>
+        <li>Company:Searidge Park Primary School</li>
+        <li>Period: January 2019 (2 weeks)</li>
+        <li>Role: Volunteer Teaching Assistant</li>
+        <li> Duties: 
+              • Assisting with general tasks in the classroom as directed by the teacher</li>
+        </ol>       
       </div>
     </div>
   </div>
+  <!--Rating of skills-->
+   <div class="container" >
+    <h1>My Skills</h1>
   
+    <div class="wrap">
+      <p>HTML</p>
+      <div class="bar html delay-html"><span>70%</span></div>
+    </div>
+  
+    <div class="wrap">
+      <p>CSS</p>
+      <div class="bar css delay-css"><span>60%</span></div>
+    </div>
+  
+    <div class="wrap">
+      <p>JavaScript</p>
+      <div class="bar js delay-js"><span>45%</span></div>
+    </div>
+  
+    <div class="wrap">
+      <p>Python</p>
+      <div class="bar jquery delay-js"><span>50%</span></div>
+    </div>
+  
+        
+  <!--Media-->
   <div class="container-fluid portfolio" id="portfolio">
     <div class="container cf">
       <h2>Portfolio</h2>
       <div class="gallery">
-        <div class="gallery-image"><img src="swegga.png" alt=""></div>
-        <div class="gallery-image"><img src="project.jpg" alt=""></div>
-        <div class="gallery-image"><img src="" alt=""></div>
-        <div class="gallery-image"><img src="https://unsplash.it/800/450?image=247" alt=""></div>
-        <div class="gallery-image"><img src="https://unsplash.it/800/450?image=239" alt=""></div>
-        <div class="gallery-image"><img src="https://unsplash.it/800/450?image=238" alt=""></div>
+        <div class="gallery-image">
+         <a href="https://swegga-fashion-website.netlify.app/"><img src="swegga.png" alt=""></div></a>
+        <div class="gallery-image">
+        <a href="https://amberprojectza.netlify.app"><img src="project.jpg" alt=""></div></a>
+        <div class="gallery-image">
+        <a href="https://github.com/amber1710/JS-calculator/tree/main/Javascript%20Calculator"><img src="js calculator.png" alt=""></div></a>
+        <div class="gallery-image">
+        <a href="https://github.com/amber1710/Converter/tree/main/Temperature%20convertor"><img src="tempcon.png" alt=""></div></a>
+        <div class="gallery-image">
+        <a href="https://github.com/amber1710/File-Handling"><img src="weekendact.png" alt=""></div>
+        <div class="gallery-image">
+        <a href="https://github.com/amber1710/Python--Lottery-EOMP"><img src="lottery.png" alt=""></div></a>
       </div>
     </div>
   </div>
-  
+</br>
+ 
+  <!-- Testimonials Section -->
+   <section class="testimonials">
+     <div class="container">
+       <h1>Testimonials</h1>
+      
+       <div class="row">
+         <div class="col-md-4 text-center">
+           <div class="profile">
+             <img src="godwin.jpeg" class="user">
+             <blockquote>Amber has shown a remarkable development since joining the organisation. She is someone who listens and adjusts accordingly. </blockquote>
+             <h3>Godwin D <span>-Head of Learning and Curriculum.</span></h3>
+           </div>
+
+           <div class="col-md-4 text-center">
+            <div class="profile">
+              <img src="skylar.jpeg" class="user">
+              <blockquote>Amber is a very observant learner and is very focused and dedicated to her work, she work well other her fellow colleagues and has excellent communication skills, she would be a good asset to a company.</blockquote>
+              <h3>Skylar Hufkie <span>-Junior Developer</span></h3>
+            </div>
+            
+            <div class="col-md-4 text-center">
+              <div class="profile">
+                <img src="nadine.jpeg" class="user">
+                <blockquote>Apart from the fact that Amber can bring positivity to the room each day, she is also a very dedicated learner and always does her best in any task that is given to her.</blockquote>
+                <h3>Nadine Fortuin <span>-Junior Developer</span></h3>
+              </div>  
+
+         </div>
+       </div>
+     </div>
+   </section>
+
   <div class="container-fluid contact" id="contact">
     <div class="container">
       <form action="https://formspree.io/f/xzbkjldj" method="POST">
@@ -94,13 +165,9 @@
     </div>
   </div>
   
-  <footer class="container-fluid footer">
-    <div class="container">
-      <a href="#" target="_blank"><i class="fa fa-facebook"></i></a>
-      <a href="#" target="_blank"><i class="fa fa-twitter"></i></a>
-      <a href="#" target="_blank"><i class="fa fa-github"></i></a>
-      <a href="#" target="_blank"><i class="fa fa-dribbble"></i></a>
-      <a href="#" target="_blank"><i class="fa fa-codepen"></i></a>
-    </div>
+  <footer>
+    <a href="https://www.facebook.com/amber.adonis.56/" class="fa fa-facebook"></a>
+    <a href="https://www.linkedin.com/in/amber-adonis-8a278a1bb/" class="fa fa-linkedin"></a>
+    <a href="https://www.instagram.com/amberadonis7/" class="fa fa-instagram"></a>
   </footer>
 </html>
